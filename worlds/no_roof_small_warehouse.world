@@ -214,7 +214,7 @@
         <include>
             <uri>model://aws_robomaker_warehouse_PalletJackB_01</uri>
         </include>
-        <pose frame=''>-0.276098 -9.481944 0.023266 0 0 0</pose>
+        <pose frame=''>-5.48798 9.20252 0.023266 0 -0 0</pose>
 	</model>
 
     	
@@ -233,12 +233,11 @@
     </light>
 
     <gui fullscreen='0'>
-      <camera name='user_camera'>
-        <pose frame=''>-4.70385 10.895 16.2659 -0 0.921795 -1.12701</pose>
-        <view_controller>orbit</view_controller>
-        <projection_type>perspective</projection_type>
-      </camera>
-    </gui>
-
+        <camera name='user_camera'>
+          <pose>5.91398 10.2375 16.9177 0 0.975644 -2.26697</pose>
+          <view_controller>orbit</view_controller>
+          <projection_type>perspective</projection_type>
+        </camera>
+      </gui>
   </world>
 </sdf>
