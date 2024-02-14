@@ -152,42 +152,6 @@
         <pose frame=''>-1.491287 5.222435 -0.017477 0 0 -1.583185</pose>
 	</model>
 
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_027">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">3.324959 3.822449 -0.012064 0 0 1.563871</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_028">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">5.54171 3.816475 -0.015663 0 0 -1.583191</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_029">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">5.384239 6.137154 0 0 0 3.150000</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_030">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">3.236 6.137154 0 0 0 3.150000</pose>
-	</model>
-
-     <model name="aws_robomaker_warehouse_ClutteringC_01_031">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
-        </include>
-        <pose frame="">-1.573677 2.301994 -0.015663 0 0 -3.133191</pose>
-	</model>
-
      <model name="aws_robomaker_warehouse_ClutteringC_01_032">
         <include>
             <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
@@ -232,12 +196,34 @@
       <direction>0.1 0.1 -1</direction>
     </light>
 
+    <!-- CUSTOMIZATIONS -->
+
+    <model name="euro_pallet_01">
+        <include>
+            <uri>model://euro_pallet</uri>
+        </include>
+        <pose frame="">6.02756 4.98577 0.106224 0 0 0</pose>
+	</model>
+    <model name="euro_pallet_02">
+        <include>
+            <uri>model://euro_pallet</uri>
+        </include>
+        <pose frame="">-1.96562 2.41968 0.106224 0 0 0</pose>
+	</model>
+    <model name="euro_pallet_03">
+        <include>
+            <uri>model://euro_pallet</uri>
+        </include>
+        <pose frame="">-2.03613 -0.909819 0.106224 0 0 0</pose>
+	</model>
+    
+
     <gui fullscreen='0'>
-      <camera name='user_camera'>
-        <pose frame=''>-4.70385 10.895 16.2659 -0 0.921795 -1.12701</pose>
-        <view_controller>orbit</view_controller>
-        <projection_type>perspective</projection_type>
-      </camera>
+        <camera name='user_camera'>
+            <pose>-5.7679 8.42339 13.375 0 0.90979 -0.69101</pose>
+            <view_controller>orbit</view_controller>
+            <projection_type>perspective</projection_type>
+        </camera>
     </gui>
 
   </world>
